@@ -1,4 +1,5 @@
 .navbar-nav li a {
+  margin-left: 1.7rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -8,8 +9,4 @@
 .navbar-nav li a:active {
   color: #007BFF;
   font-weight: bold;
-}
-
-header {
-  background-color: green;
 }

@@ -8,3 +8,7 @@
   /* Cover all view height */
   height: 35rem;
 }
+
+.jumbotron {
+  background: none
+}
