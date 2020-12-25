@@ -1,0 +1,10 @@
+.bg-homepage {
+  /* Makes gradient between two colors; In this situation, gradient between black with 0.7 transparency. Allows to darker the image */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../../../../../assets/vendors/img/bg-homepage.png);
+  /* Full page image */
+  background-size: cover;
+  background-position: center;
+  /* Cover all view height */
+  height: 35rem;
+}

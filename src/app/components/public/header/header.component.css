@@ -1,10 +1,15 @@
 .navbar-nav li a {
   font-size: 1.2rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li a:active {
   color: #007BFF;
   font-weight: bold;
+}
+
+header {
+  background-color: green;
 }

@@ -7,13 +7,15 @@ import { FooterComponent } from './components/public/footer/footer.component';
 import { BodyComponent } from './components/public/body/body.component';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { HomepageComponent } from './components/public/body/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
