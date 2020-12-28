@@ -8,6 +8,7 @@ import { PublicHomeComponent } from 'src/app/components/public/public-home/publi
 import { PublicServicesComponent } from 'src/app/components/public/public-services/public-services.component';
 import { PublicContactComponent } from 'src/app/components/public/public-contact/public-contact.component';
 import { PublicAccountComponent } from 'src/app/components/public/public-account/public-account.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PublicAccountComponent } from 'src/app/components/public/public-account
     PublicAccountComponent
   ],
   imports: [
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatTabsModule
   ]
 })
 export class PublicLabModule {
