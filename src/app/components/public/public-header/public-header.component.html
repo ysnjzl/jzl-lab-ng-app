@@ -1,16 +1,53 @@
-<p>public-header works!</p>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-nav">
+    <div class="container">
 
-<div class="container">
-  <div class="row">
-    <a href="/">Home</a>
-  </div>
-  <div class="row">
-    <a href="services">Services</a>
-  </div>
-  <div class="row">
-    <a href="contact">Contacter nous</a>
-  </div>
-  <div class="row">
-    <a href="account">Espace client</a>
-  </div>
-</div>
+      <!-- LOGO -->
+      <a href="#home" class="navbar-brand mr-5">
+        <img src="../../../../assets/resources/img/logo.png" width="70" height="70" alt="Logo">
+      </a>
+
+      <!-- Toggle button for small screen -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENU -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto nav-menu">
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              &nbsp;
+              <fa-icon icon="home"></fa-icon>
+              &nbsp; Acceil &nbsp;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="services" class="nav-link">
+              &nbsp;
+              <fa-icon icon="tooth"></fa-icon>
+              &nbsp; Prestations &nbsp;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact" class="nav-link">
+              &nbsp;
+              <fa-icon icon="envelope"></fa-icon>
+              &nbsp; Contactez-nous &nbsp;
+            </a>
+          </li>
+          <li class="nav-item"> &nbsp; </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-sign-in">
+          <li class="nav-item">
+            <a href="account" class="nav-link">
+              &nbsp;
+              <fa-icon icon="sign-in-alt"></fa-icon>
+              &nbsp; Connexion &nbsp;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

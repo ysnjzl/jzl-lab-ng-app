@@ -1,0 +1,43 @@
+.nav-menu {}
+
+.nav-menu li a {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0474B8;
+  border-bottom: 3px solid transparent;
+  margin-right: 2rem;
+  display: inline-block;
+
+}
+
+.nav-menu li a:hover,
+.nav-menu li a:active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 3px solid #0474B8;
+  background-color: #0474B8;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.nav-sign-in::before {
+  border-top: 2px solid orange;
+}
+
+.nav-sign-in li a {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0474B8;
+  color: white;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.nav-sign-in li a:hover,
+.nav-sign-in li a:active {
+  background-color: #007BFF;
+  font-weight: bold;
+  display: inline-block;
+}
