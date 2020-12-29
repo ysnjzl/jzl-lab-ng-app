@@ -1,0 +1,29 @@
+.bg-contact-us {
+  /* Makes gradient between two colors; In this situation, gradient between black with 0.7 transparency. Allows to darker the image */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url(../../../../assets/vendors/img/contact-us.jpg);
+  /* Full page image */
+  background-size: cover;
+  background-position: center;
+  /* Cover all view height */
+  height: auto;
+}
+
+.contact-us-intro-box {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-us-form-box {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.btn-contact-us-send {
+  color: white;
+  background-color: #0474B8;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.3rem;
+}
