@@ -2,15 +2,15 @@
   color: #0474B8;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  word-spacing: 0.2rem;
+  line-height: 2rem;
 }
 
 .sarl {
   color: #0474B8;
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: right;
-  margin-right: 4rem;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
@@ -21,11 +21,12 @@
   font-size: larger;
 }
 
-.phone-item {
-  margin-right: 3rem;
-}
-
 .about {
   color: #0474B8;
   font-weight: bold;
+}
+
+.phone-item {
+  display: inline-block;
+  margin-right: 3rem;
 }
