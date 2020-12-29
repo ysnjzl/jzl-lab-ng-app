@@ -9,6 +9,9 @@ import { PublicServicesComponent } from 'src/app/components/public/public-servic
 import { PublicContactComponent } from 'src/app/components/public/public-contact/public-contact.component';
 import { PublicAccountComponent } from 'src/app/components/public/public-account/public-account.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { PublicAccountSignInComponent } from 'src/app/components/public/public-account/public-account-sign-in/public-account-sign-in.component';
+import { PublicAccountSignUpComponent } from 'src/app/components/public/public-account/public-account-sign-up/public-account-sign-up.component';
+import { PublicErrorPageComponent } from 'src/app/components/public/public-error-page/public-error-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import {MatTabsModule} from '@angular/material/tabs';
     PublicHomeComponent,
     PublicServicesComponent,
     PublicContactComponent,
-    PublicAccountComponent
+    PublicAccountComponent,
+    PublicAccountSignInComponent,
+    PublicAccountSignUpComponent,
+    PublicErrorPageComponent
   ],
   exports: [
     PublicHeaderComponent,

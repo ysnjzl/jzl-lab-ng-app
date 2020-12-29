@@ -1,15 +1,20 @@
-<div class="container">
-  <mat-tab-group dynamicHeight>
-    <!-- #enddocregion dynamic-height -->
-    <mat-tab label="Short tab">
-      <div class="example-small-box mat-elevation-z4">
-        Small content
-      </div>
-    </mat-tab>
-    <mat-tab label="Long tab">
-      <div class="example-large-box mat-elevation-z4">
-        Large content
-      </div>
-    </mat-tab>
-  </mat-tab-group>
-</div>
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <fa-icon icon="sign-in-alt"></fa-icon>
+      <br>
+      First
+    </ng-template>
+    <!-- #enddocregion label-directive -->
+    <app-public-account-sign-in></app-public-account-sign-in>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <fa-icon icon="sign-in-alt"></fa-icon>
+      <br>
+      Second
+    </ng-template>
+    <!-- #enddocregion label-directive -->
+    <app-public-account-sign-up></app-public-account-sign-up>
+  </mat-tab>
+</mat-tab-group>
