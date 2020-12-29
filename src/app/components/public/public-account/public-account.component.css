@@ -1,19 +1,24 @@
-.example-small-box,
-.example-large-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 16px;
-  padding: 16px;
-  border-radius: 8px;
+.tabs-section {
+  background-color: white;
+  height: 2000px;
 }
 
-.example-small-box {
-  height: 100px;
-  width: 100px;
+.tabs-container {
+  margin-top: 2rem;
 }
 
-.example-large-box {
-  height: 300px;
-  width: 300px;
+.sign-in-tab-label {
+  font-size: 1.3rem;
+  color: darkblue;
+}
+
+.sign-up-tab-label {
+  font-size: 1.3rem;
+  color: darkgreen;
+}
+
+.row-tab {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.1rem;
 }

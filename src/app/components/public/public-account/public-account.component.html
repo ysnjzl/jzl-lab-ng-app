@@ -1,20 +1,38 @@
-<mat-tab-group mat-align-tabs="center">
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <fa-icon icon="sign-in-alt"></fa-icon>
-      <br>
-      Se connecter
-    </ng-template>
-    <!-- #enddocregion label-directive -->
-    <app-public-account-sign-in></app-public-account-sign-in>
-  </mat-tab>
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <fa-icon icon="sign-in-alt"></fa-icon>
-      <br>
-      Créer un compte
-    </ng-template>
-    <!-- #enddocregion label-directive -->
-    <app-public-account-sign-up></app-public-account-sign-up>
-  </mat-tab>
-</mat-tab-group>
+<section class="tabs-section">
+  <div class="container tabs-container">
+
+    <mat-tab-group mat-align-tabs="center">
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="container sign-in-tab-label">
+            <div class="row-tab">
+              <fa-icon icon="user"></fa-icon>
+            </div>
+            <div class="row-tab">
+              Se connecter
+            </div>
+          </div>
+        </ng-template>
+        <app-public-account-sign-in></app-public-account-sign-in>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="container sign-up-tab-label">
+            <div class="row-tab">
+              <fa-icon icon="user-plus"></fa-icon>
+            </div>
+            <div class="row-tab">
+              Créer un compte
+            </div>
+          </div>
+        </ng-template>
+        <app-public-account-sign-up></app-public-account-sign-up>
+      </mat-tab>
+
+
+    </mat-tab-group>
+
+  </div>
+</section>
