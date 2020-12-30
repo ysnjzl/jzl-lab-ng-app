@@ -1,0 +1,39 @@
+.section-404 {
+  padding: 40px 0;
+  background: #fff;
+}
+
+.h-404 {
+  margin-top: 1rem;
+  color: #0474B8;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.bg-404 {
+  background-image: url(../../../../assets/vendors/img/404.gif);
+  background-position: center;
+  height: 25rem;
+}
+
+.box-404 {
+  color: #0474B8;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.back-home a,
+.back-home a:link,
+.back-home a:visited,
+.back-home a:hover,
+.back-home a:active {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background-color: #0474B8;
+  color: white;
+  border-radius: 50px;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+}
